@@ -1,0 +1,61 @@
+imp properties of random module:
+
+random() => use to generate random number
+seed() => save the state of the random function,and it return same value that could be saved
+randint(start,end) => give a random int number in given range
+randrange(start,stop,step) => give a random int number created by start,stop,step
+choice(list) => give a random value from the list
+shuffle(list) => randomly reorder the element
+uniform(start,stop) => generate random floating point number between this numbers
+
+-----------------------------------------
+
+imp properties of Math module:
+
+-> constants
+
+	1)Euler's Number -> math.e
+	2)Pi -> math.pi
+	3)Tau -> math.tau
+	4)infinity -> math.inf
+	5)Not a Number(NaN) -> math.nan
+
+ceil(float_variable) => give a smaller int number of given float number
+floor(float_variable) => give a gretest int number of given float number
+factorial(int) => give a factorial of given number
+gcd(int,int) => find a gcd of the given numbers
+fabs(int) => function give a absolute value ex. n = -15 and absolute value is 15
+exp(x) => e power x
+power(a,b) => a is base and b is power (a**b)
+log([x,base]) => x is value and base is log base
+log2(x) => x is value of log base 2
+log10(x) => x is value of log base 10
+sqrt(x) => sqrt of x
+sin(x) => sine of x radians.
+cons(x) => cos of x radians.
+tan(x) => tan of x radians.
+degree(x) => x from radians to degree.
+radians(x) => x from degree to radians.
+gamma(x) => gamma value of x.
+isinf(x) => infinity or not.
+isnan(x) => NaN or not.
+erf(x) -> return error function of x.
+
+-----------------------------------------
+
+imp properties of Date module:
+
+datetime.now() as dt => corrent date ex. datetime.datetime.now() -> today date
+dt.year => provide year of that date
+dt.day => provide day of that date
+dt.month => provide month of that date
+dt.hour => provide hour of that time
+dt.year => provide minute of that time
+dt.timestamp() => provide timestamp of that time
+dt.timedalta(month or day or year or times for calculate with other date) => manipulate difference of dates
+
+Date_formate :-
+
+strftime(String) and strptime(String) 
+=> convert date in string which is formate set by user -> ex. strf("%A %m %-Y %-l %p etc.") (% and - is create a formate of string)
+
